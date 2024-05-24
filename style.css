@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    height:100vh;
+}
+.heading{
+    text-align: center;
+    color: white;
+    background-color: rgb(1, 1, 73);
+    padding: 10px;
+    font-weight: lighter;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-top: 100px;
+    /* padding: 20px; */
+    gap: 20px;
+}
+.imagebutton {
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%; /* Make the button circular */
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.imagebutton:hover{
+    border: 2px solid black;
+}
+#button1{
+    background-image: url("images/rock.jpeg");
+    background-color: white;
+}
+#button2{
+    background-image: url("images/paper.jpeg");
+    background-color: white;
+}
+#button3{
+    background-image: url("images/scissors.jpeg");
+    background-color: white;
+}
+.score{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+}
+.scores{
+    margin: 10px;
+    font-size: 30px;
+}
+.section{
+    margin: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.span{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    padding:5px;
+}
+.output{
+    margin: 10px;
+}
+#comp{
+    color: black;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    width: fit-content;
+
+}
+#label{
+    color:black;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    width: fit-content;
+
+}
