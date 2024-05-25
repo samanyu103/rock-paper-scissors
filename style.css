@@ -78,9 +78,10 @@ body{
     margin: 10px;
 }
 #comp{
-    color: black;
+    color: white;
+    background-color: rgb(1, 1, 73);
     border: none;
-    padding: 5px;
+    padding: 5px 10px;
     border-radius: 10px;
     /* width: fit-content; */
 
